@@ -22,4 +22,3 @@ def checkMagazine(magazine, note):
 
 
 
-checkMagazine(["two","times","three","is","not","four"],["two","times","two","is","four"])
