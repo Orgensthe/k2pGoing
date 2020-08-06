@@ -1,1 +1,0 @@
-def checkMagazine(magazine, note):
