@@ -1,0 +1,11 @@
+# Arrays
+
+## New Year Chaos(2020.08.11 ~ 12)
+
+[문제]([https://www.hackerrank.com/challenges/new-year-chaos/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays](https://www.hackerrank.com/challenges/new-year-chaos/problem?h_l=interview&playlist_slugs[]=interview-preparation-kit&playlist_slugs[]=arrays))
+
+### 생각 과정
+1. 주어진 배열에서 같은 크기의 배열을 빼면 값이 나오는데 이 때 양수는 모두 더하고 음수 중에서 2를 넘어가지 않는 것은 절대값으로 더해주었다(틀림, 음수 중에서도 의지와 상관없이 밀렸으나 중간에 한번 앞으로 간 것이 있을 수 있음)
+2. 원래 배열에서 주어진 배열을 만들어 가는 과정을 코드로 직접 보여주는 법을 생각했음(배열의 원소를 옮기고 빼고 하는 방식으로... 타임아웃)
+3. 아침에 승훈님(센세)의 해법을 듣고 그대로 실현... 계속 반복해서 배열을 조작하지 않고 뒤에서부터 앞으로 이동하면서 자기보다 앞의 2개만을 조사해서 자기보다 작으면 원래 그 자리에 있는 것 크면 움직인 것이므로 총합에 더하기.. 그리고 원래 자신의 위치보다 2가 많으면 Chaotic 
+
