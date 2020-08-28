@@ -16,17 +16,13 @@ class Node {
 class Solution {
 
     public static Node lca(Node root, int v1, int v2) {
-        if (root.data == v1 || root.data == v2) {
-            return root;
-        }
-        Node cur = root;
         while (true) {
-             if (cur.data > v1 && cur.data > v2) {
-                cur = cur.left;
-            } else if (cur.data < v1 && cur.data < v2) {
-                 cur = cur.right;
+             if (root.data > v1 && root.data > v2) {
+                root = root.left;
+            } else if (root.data < v1 && root.data < v2) {
+                 root = root.right;
              } else {
-                 return cur;
+                 return root;
              }
         }
     }
