@@ -24,6 +24,19 @@ public class Solution {
             result = Math.max(sum, result);
         }
 
+        /*long[] array = new long[n];
+        long result = 0;
+
+        for (int[] query : queries) {
+            for (int k = query[0]; k <= query[1]; k++) {
+                array[k - 1] += query[2];
+            }
+        }
+
+        for (long i : array) {
+            result = Math.max(i, result);
+        }*/
+
         return result;
     }
 
