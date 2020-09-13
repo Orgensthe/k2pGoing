@@ -17,3 +17,9 @@
 2. 좌에서 우로 우에서 좌로 탐색하면서 변곡이 생기는 부분에서 서로 교환 >> 테스트케이스 몇개 진행해보니 올바르지 않음
 3. 하나를 잡아두고 해당 인덱스에 와야할 값을 찾는 방법 >> 타임아웃 발생
 4. 위에 것을 그대로 가되 탐색을 할 때 인덱스만 찾는 것이 아니라 같이 바꿔즈는 작업 수반
+
+## Array Manipulation(2020.09.13)
+[문제]([https://www.hackerrank.com/challenges/crush/problem?h_l=interview&page=1&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays])
+### 생각 과정
+1. 단순히 모든 범위에 해당하는 숫자를 차례대로 더해서 제일 큰 수 찾기(타임아웃 발생)
+2. 잘 모르겠음..(인터넷의 풀이를 보니 변곡을 이용... 정확히 어떻게 되는 건지는 이해가 안되지만 일단 되기는 됨)
